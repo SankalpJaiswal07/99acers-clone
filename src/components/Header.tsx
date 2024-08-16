@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="relative top-0 w-full h-[340px] z-[999]">
+    <div className="relative top-0 w-full h-[340px] ">
       <Image
         src="/banner.jpg"
         alt="banner"
@@ -68,7 +68,7 @@ export default function Header() {
                               <input
                                 type="text"
                                 placeholder="City Name"
-                                className="w-full bg-transparent"
+                                className="w-full bg-transparent text-[#091e42] focus:outline-none"
                               />
                             </div>
                           </div>
@@ -155,7 +155,7 @@ export default function Header() {
           <a href="#">
             <i className="fa-solid fa-bars-staggered text-white" id="bars"></i>
           </a>
-          <div className="flex ">
+          <div className="flex z-30">
             <ul className="list flex  text-white">
               <li className="relative group px-4 py-2">
                 <a
@@ -166,7 +166,7 @@ export default function Header() {
                 </a>
 
                 <div className="text-[#42526e] absolute top-[42px] -left-[112px] w-[800px] h-[330px] bg-white rounded-[10px] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:animate-fade-down animate-duration-500 flex gap-8">
-                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium">
+                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium rounded-l-lg">
                     <span>BUY A HOME</span>
                     <ul className="space-y-2 mt-2">
                       <li>
@@ -306,7 +306,7 @@ export default function Header() {
                   For Tenants
                 </a>
                 <div className="absolute top-[42px] -left-[225px] w-[800px] h-[365px] bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:animate-fade-down animate-duration-500 flex gap-8 text-[#42526e]">
-                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium ">
+                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium rounded-l-lg">
                     <span>RENT A HOME</span>
                     <ul className="space-y-2 mt-2">
                       <li>
@@ -348,7 +348,7 @@ export default function Header() {
                   For Owners
                 </a>
                 <div className="absolute top-[42px] -left-[343px] w-[800px] h-[365px] bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:animate-fade-down animate-duration-500 flex gap-8 text-[#42526e]">
-                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium">
+                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium rounded-l-lg">
                     <span>LIST YOUR PROPERTY</span>
                     <ul className="space-y-2 mt-2">
                       <li>
@@ -403,7 +403,7 @@ export default function Header() {
                   For Dealers/Builders
                 </a>
                 <div className="absolute top-[42px] -left-[466px] w-[800px] h-[365px] bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:animate-fade-down animate-duration-500 flex gap-8 text-[#42526e]">
-                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium">
+                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium rounded-l-lg">
                     <span>BUILD WITH US</span>
                     <ul className="space-y-2 mt-2">
                       <li>
@@ -462,7 +462,7 @@ export default function Header() {
                   </div>
                 </a>
                 <div className="absolute  top-[42px] -left-[650px] w-[800px] h-[365px] bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:animate-fade-down animate-duration-500 flex gap-8 text-[#42526e]">
-                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium">
+                  <div className="w-[33.33%] bg-[#f4f5f7] py-[40px] px-[30px] font-medium rounded-l-lg">
                     <span>MARKET INSIGHTS</span>
                     <ul className="space-y-2 mt-2">
                       <li>
