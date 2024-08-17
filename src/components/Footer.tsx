@@ -134,7 +134,7 @@ export default function Footer() {
                   </Link>
                   <Link href="#">
                     <Image
-                      src={"/image/play.png"}
+                      src={"/image/Play.png"}
                       alt="Play Store"
                       width={"160"}
                       height={"47"}
