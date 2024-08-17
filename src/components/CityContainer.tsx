@@ -47,9 +47,9 @@ const CityContainer: React.FC = () => {
   return (
     <section className="mt-8">
       <div className="px-[4%] py-4">
-        <div className="mb-8">
-          <p className="text-base font-semibold">99acres</p>
-          <h2 className="text-xl font-bold">
+        <div className="mb-8 ">
+          <p className="text-base font-semibold text-[#8993a4;]">Top cities</p>
+          <h2 className="text-4xl font-bold text-[#041533]">
             Explore Real Estate in Popular Indian Cities
           </h2>
         </div>
