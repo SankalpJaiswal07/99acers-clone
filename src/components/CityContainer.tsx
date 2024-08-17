@@ -45,7 +45,7 @@ const CityContainer: React.FC = () => {
   ];
 
   return (
-    <section className="mt-96">
+    <section className="mt-8">
       <div className="px-[4%] py-4">
         <div className="mb-8">
           <p className="text-base font-semibold">99acres</p>
