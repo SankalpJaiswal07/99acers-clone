@@ -195,7 +195,7 @@ export default function BuyHomeSection() {
                           <div className="pageComponent articleCard__articleCard articleCard__imgHover cursor-pointer  mr-2 flex flex-row w-[290px]">
                             <div className="articleCard__imgStyle w-[80px] h-[60px]  rounded-[4px]">
                               <Image
-                                src="/image/property/noida.jpeg"
+                                src="/image/property/Noida.jpeg"
                                 alt="Noida tops in unsold inventory"
                                 width={80}
                                 height={60}
